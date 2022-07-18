@@ -130,7 +130,7 @@ header{
 /* h3 */
 h3 {
    font-size: 40px;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-weight: lighter;
    font-variant: small-caps;
    color: var(--dustygreen);
