@@ -217,6 +217,10 @@ main {
     margin: 30rem;
 }
 
+.hr {
+    color: var(--dustygreen);
+}
+
 
 
 /* .portfolio */
@@ -384,7 +388,8 @@ img {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 260%;
+    margin-top: 10%;
+    margin-left: 15%;
     justify-content: center;
     text-align: center;
     }
@@ -402,7 +407,6 @@ img {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 260%;
     justify-content: center;
     text-align: center;
     }
@@ -430,6 +434,7 @@ img.aboutphoto {
     width:70%;
     clear: both;
     margin: 0.3em;
+    margin-left: 2em;
     display:flex;
     padding:3%;
     border-block-end: 3px;
@@ -482,6 +487,7 @@ img.aboutphoto {
        display:flexbox;
        justify-content: center;
        padding:0;
+       margin-left: 0.5em;
     }
 }
 
@@ -564,21 +570,19 @@ p.abouttext {
 
 @media screen and (max-width: 800px) {
     p.abouttext {
-        text-align: left;
-        justify-content: left;
+        text-align: center;
+        justify-content: center;
         text-indent: none;
-        margin-left: 0;
+        margin-left: 2em;
         margin-right: 0;
         font-size:medium;
         padding: 1%;
         color: var(--teal);
         display:inline-block;
         background-color: snow;
-        line-height: 1.5;
+        line-height: 1.5em;
         flex-wrap: wrap;
         overflow-wrap: break-word;
-        margin-top: 2%;
-        
     }
 }
 
